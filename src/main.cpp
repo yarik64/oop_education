@@ -10,7 +10,7 @@
 int main(int argc, char** argv)
 {
 	my_class mc;
-	mc.ptint("HELLO FUCKIN WORLD!!!");
+	mc.prnt("HELLO FUCKIN WORLD!!!");
 
 	return 0;
 }

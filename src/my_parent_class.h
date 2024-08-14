@@ -9,6 +9,9 @@
 class my_parent_class {
 	
 	public:
+		my_parent_class();
+		~my_parent_class();
+		my_parent_class(my_parent_class&);
 	private:
 		int    pfield1 = 100;
 //		String field2;

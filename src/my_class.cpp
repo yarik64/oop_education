@@ -1,6 +1,8 @@
 // my_class.cpp
 
 #include <iostream>
+#include "my_class.h"
+
 
 my_class::my_class()
 {
@@ -20,7 +22,7 @@ my_class::my_class(my_class&)
 }
 
 
-void my_class::print(char* str[])
+void my_class::prnt(char str[])
 {
 	std:: cout << "SAY:" << str << std::endl;
 }

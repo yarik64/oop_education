@@ -9,7 +9,11 @@
 class my_class : my_parent_class {
 	
 	public:
-		void my_class::print(char* str[])
+		my_class();
+		~my_class();
+		my_class(my_class&);
+
+		void prnt(char str[]);
 
 	private:
 //		int    field1;

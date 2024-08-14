@@ -1,12 +1,13 @@
-// my_class.cpp
+// my_parent_class.cpp
 
+#include "my_parent_class.h"
 #include <iostream>
 
-my_class::my_class()
-{ std::cout << "This is init constructor" << std::endl; }
+my_parent_class::my_parent_class()
+{ std::cout << "This is parent init constructor" << std::endl; }
 
-my_class::~my_class()
-{ std::cout << "This is destructor" << std::endl; }
+my_parent_class::~my_parent_class()
+{ std::cout << "This is parent destructor" << std::endl; }
 
-my_class::my_class(my_class&)
-{ std::cout << "This is copying constructor" << std::endl; }
+my_parent_class::my_parent_class(my_parent_class&)
+{ std::cout << "This is parent copying constructor" << std::endl; }
